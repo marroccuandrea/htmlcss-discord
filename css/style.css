@@ -139,7 +139,7 @@ nav ul li a{
 .bianco{
     display: flex;
     flex-wrap: wrap;
-    
+    color: black;
     background-color: white;
     justify-content: center;
     align-content: center;
@@ -148,7 +148,6 @@ nav ul li a{
 .grigio{
     display: flex;
     flex-wrap: wrap;
-    
     background-color: #D3D3D3;
     justify-content: center;
     align-content: center;
@@ -159,23 +158,37 @@ nav ul li a{
     width: 70%;
     flex-wrap: wrap;
 }
+/*
+.container-base2{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around ;
+}
+*/
 .container1{
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    
+    width: 70%;
     padding: 150px 0;
     border: 2px dashed black;
 }
 
 .container1 img{
-    height: 525px;
+    display: flex;
+    height: 90%;
+    background-size: cover;
+    width: 90%;
 }
+
 
 .container2{
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
-    
+    width: 30%;
+    padding: 190px 0;
     border: 2px dashed black;
 }
 
@@ -187,6 +200,21 @@ nav ul li a{
     justify-content: center;
     align-content: center;
     border: transparent;
+}
+
+.titolo-grande2{
+    font-size: 57px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.contenuto-box{
+    display: flex;
+    font-size: 24px;
+    text-align: left;
+    line-height: 35px;
+    justify-content: center; 
 }
 
 .box-verde{

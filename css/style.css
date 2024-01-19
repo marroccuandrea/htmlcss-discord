@@ -84,25 +84,53 @@ nav ul li a{
 .jumbotron{
     display: flex;
     flex-direction: column;
-    height: 620px;
+    height: 540px;
     width: 45%;
     background-color: none;
-    border: 2px dashed black;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     color: white;
     justify-content: space-evenly;
-    
+    padding-top: 80px;
 }
 
-p{
+
+.titolo-grande{
+    font-size: 67px;
+    font-weight: bold;
     text-align: center;
 }
 
-.titolo-grande{
-    font-size: 65px;
+.contenuto-jumbo{
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    
 }
 
-.contenuto-jumbo{
+.bottoni{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.scarica{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.apri{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #23272A;
+    text-decoration: none;
+    color: white;
+    border-radius: 40px;
     font-size: 24px;
 }
 

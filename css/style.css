@@ -15,7 +15,7 @@ body{
     
 header{
   background-color: #3161E0;
-  padding: 30px 0;
+  padding: 30px 0 0 0;
   }
 
 .contenitore-header{
@@ -59,12 +59,12 @@ nav ul li a{
 .login{
     text-align: right;
     width: 20%;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .login .pulsante{
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 17px;
     background-color: white;
     text-decoration: none;
     color: black;
@@ -73,20 +73,37 @@ nav ul li a{
 
 .container-jumbo{
     display: flex;
-    flex-wrap: wrap;
-    background-color: #00008B;
-    height: 520px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .jumbotron{
     display: flex;
-    flex-wrap: wrap;
-    width: 945px;
-    height: 415px;
-    background-color: #EE83EF;
+    flex-direction: column;
+    height: 620px;
+    width: 45%;
+    background-color: none;
     border: 2px dashed black;
-    margin: 0 auto;
+    margin-bottom: 30px;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+
+p{
+    text-align: center;
+}
+
+.titolo-grande{
+    font-size: 65px;
+}
+
+.contenuto-jumbo{
+    font-size: 24px;
 }
 
 .bianco{

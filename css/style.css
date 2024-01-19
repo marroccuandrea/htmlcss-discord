@@ -1,0 +1,247 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+.debug{
+    background-color: #DAA521;
+    border: 1px solid black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ADD8E6;
+  height: 80px;
+  }
+
+.logo{
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    height: 50px;
+  }
+
+.logo .logo-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    padding-left: 10px;
+    background-color: #DAA521;
+    font-size: 20px;
+    border: 2px dashed black;
+  }
+
+nav{
+    height: 50px;
+    width: 750px;
+    background-color: #DAA521;
+    border: 2px dashed black;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.login{
+    display: flex;
+    justify-content: left;
+    text-align:center;
+    flex-grow: 1;
+    height: 50px;
+    font-size: 20px;
+}
+
+.login .pulsante{
+    display: flex;
+    width: 250px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    background-color: #DAA521;
+    border: 2px dashed black;
+}
+
+.container-jumbo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00008B;
+    height: 520px;
+    align-items: center;
+}
+
+.jumbotron{
+    display: flex;
+    flex-wrap: wrap;
+    width: 945px;
+    height: 415px;
+    background-color: #EE83EF;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
+
+.bianco{
+    display: flex;
+    flex-wrap: wrap;
+    height: 620px;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    border: transparent;
+}
+.grigio{
+    display: flex;
+    flex-wrap: wrap;
+    height: 620px;
+    background-color: #D3D3D3;
+    justify-content: center;
+    align-content: center;
+    border: transparent;
+}
+.container-base{
+    display: flex;
+    width: 1250px;
+    flex-wrap: wrap;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2090FF;
+    width: 60%;
+    height: 515px;
+    border: 2px dashed black;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFC0CB;
+    width: 40%;
+    height: 515px;
+    border: 2px dashed black;
+}
+
+.grigio2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D3D3D3;
+    height: 1045px;
+    justify-content: center;
+    align-content: center;
+    border: transparent;
+}
+
+.box-verde{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1250px;
+    height: 935px;
+    background-color: #238B23;
+    border: 2px dashed black;
+}
+
+.nero1{
+    display: flex;
+    background-color: #23272A;
+    height: 660px;
+    justify-content: center;
+}
+
+.box-base{
+    display: flex;
+    width: 1250px;
+    height: 600px;
+    margin-top: 10px;
+}
+
+.box1{
+    display: flex;
+    width: 30%;
+    background-color: #F18080;
+    border: 2px dashed black;
+}
+.box2{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 2px dashed white;
+}
+.box3{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 2px dashed white;
+}
+.box4{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 2px dashed white;
+}
+.box5{
+    display: flex;
+    width: 17.5%;
+    background-color: #1FB3AB;
+    border: 2px dashed white;
+}
+hr{
+    color: white;
+}
+
+.nero2{
+    display: flex;
+    background-color: #23272A;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 115px;
+}
+
+.box-base1{
+    display: flex;
+    width: 1250px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7FFFD5;
+}
+
+.logo-footer{
+    display: flex;
+    font-size: 21px;
+    padding:  4px 10px 4px 10px;
+    background-color: #FFB6C2;
+    border: 2px dashed black;
+}
+
+.bottone{
+    display: flex;
+    font-size: 21px;
+    padding:  4px 10px 4px 10px;
+    background-color: #FFB6C2;
+    border: 2px dashed black;
+}
+

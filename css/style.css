@@ -14,57 +14,41 @@ body{
 }
     
 header{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   background-color: #3161E0;
-  height: 100px;
-  
-  margin: 0 auto;
+  padding: 30px 0;
   }
 
+.contenitore-header{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
 
+.logo img{
+    height: 40px;
+}
 
 .logo{
-    display: flex;
-    justify-content: right;
-    flex-grow: 1;
-    height: 100px;
-    width: 300px;
-    border: 3px solid black;
-
+    width: 20%;
   }
 
-.logo-img{
-    display: flex;
-    align-items: center;
-    width: 250px;
-    padding-right: 145px;
-    border: 2px dashed white;
-
-  }
-
-nav{
-    height: 100px;
-    width: 850px;
-    border: 2px dashed black;
-}
 
 .link{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 60%;
 }
 
 nav ul{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     list-style: none;
 }
 
 nav ul li a{
-    display: flex;
-    justify-content: space-between;
     text-decoration: none;
     display: inline-block;
     padding: 5px 20px;
@@ -73,21 +57,18 @@ nav ul li a{
 }
 
 .login{
-    display: flex;
-    justify-content: left;
-    text-align:center;
-    flex-grow: 1;
-    height: 50px;
+    text-align: right;
+    width: 20%;
     font-size: 20px;
 }
 
 .login .pulsante{
-    display: flex;
-    width: 300px;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 10px;
-    border: 2px dashed black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
 }
 
 .container-jumbo{

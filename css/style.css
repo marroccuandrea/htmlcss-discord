@@ -153,7 +153,7 @@ nav ul li a{
 .grigio{
     display: flex;
     flex-wrap: wrap;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
     justify-content: center;
     align-content: center;
     border: transparent;
@@ -198,7 +198,7 @@ nav ul li a{
 .grigio2{
     display: flex;
     flex-wrap: wrap;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
     justify-content: center;
     align-content: center;
     border: transparent;

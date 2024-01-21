@@ -64,7 +64,7 @@ nav ul li a{
 
 .login .pulsante{
     display: inline-block;
-    padding: 12px 17px;
+    padding: 1px 17px;
     background-color: white;
     text-decoration: none;
     color: black;
@@ -178,7 +178,6 @@ nav ul li a{
     flex-wrap: wrap;
     width: 70%;
     padding: 150px 0;
-    border: 2px dashed black;
 }
 
 .container1 img{
@@ -193,7 +192,6 @@ nav ul li a{
     flex-wrap: wrap;
     width: 30%;
     padding: 200px 0;
-    border: 2px dashed black;
 }
 
 .grigio2{
@@ -226,8 +224,6 @@ nav ul li a{
     flex-direction: column;
     padding-top: 200px;
     width: 70%;
-    
-    border: 2px dashed black;
 }
 
 .tecno-text .tecnologia{
@@ -285,7 +281,7 @@ nav ul li a{
     display: flex;
     width: 70%;
     padding-top: 100px;
-    margin-bottom: 60px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #728ADA;
 }
 
@@ -356,33 +352,37 @@ hr{
     display: flex;
     background-color: #23272A;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-around;
-    height: 115px;
 }
 
 .box-base1{
     display: flex;
-    width: 1250px;
-    height: 80px;
+    width: 70%;
+    padding-top: 45px;
+    padding-bottom: 90px;
     align-items: center;
     justify-content: space-between;
-    background-color: #7FFFD5;
+    background-color: #23272A;
 }
 
 .logo-footer{
     display: flex;
     font-size: 21px;
     padding:  4px 10px 4px 10px;
-    background-color: #FFB6C2;
-    border: 2px dashed black;
+    border-radius: 30px;
+}
+
+.logo-footer img{
+    height: 40px;
 }
 
 .bottone{
     display: flex;
-    font-size: 21px;
-    padding:  4px 10px 4px 10px;
-    background-color: #FFB6C2;
-    border: 2px dashed black;
+    font-size: 15px;
+    padding:  1px 10px;
+    background-color: #8EA2E1;
+    border-radius: 40px;
+    text-decoration: none;
 }
 

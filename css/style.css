@@ -14,7 +14,7 @@ body{
 }
     
 header{
-  background-color: #3161E0;
+  background-color: #265EE9;
   padding: 30px 0 0 0;
   }
 
@@ -162,6 +162,7 @@ nav ul li a{
     display: flex;
     width: 70%;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 /*
 .container-base2{
@@ -198,6 +199,7 @@ nav ul li a{
 .grigio2{
     display: flex;
     flex-wrap: wrap;
+    height: 1260px;
     background-color: #F6F6F6;
     justify-content: center;
     align-content: center;
@@ -253,6 +255,7 @@ nav ul li a{
     background-position:top;
     padding: 50px 50px;
     font-size: 35px;
+    font-weight: bold;
     margin: auto;
 }
 
@@ -275,46 +278,75 @@ nav ul li a{
 .nero1{
     display: flex;
     background-color: #23272A;
-    height: 660px;
     justify-content: center;
 }
 
 .box-base{
     display: flex;
-    width: 1250px;
-    height: 600px;
-    margin-top: 10px;
+    width: 70%;
+    padding-top: 100px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #728ADA;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+.titolo-viola{
+    font-size: 35px;
+    font-weight: bold;
+    color: #728ADA;
+    padding-bottom: 30px;
+}
+
+#ita{
+    width: 10%;
+    height: 10%;
+}
+
+#icon-space{
+    margin-right: 20px;
+}
+
+a #icon-space{
+    font-size: 1.5rem;
+}
+
+#testo-viola{
+    color: #728ADA;
+}
+
+.lista-piccola a{
+    font-size: 1.2rem;
 }
 
 .box1{
     display: flex;
     width: 30%;
-    background-color: #F18080;
-    border: 2px dashed black;
+    padding-right: 160px;
 }
 .box2{
     display: flex;
     width: 17.5%;
-    background-color: #1FB3AB;
-    border: 2px dashed white;
 }
 .box3{
     display: flex;
     width: 17.5%;
-    background-color: #1FB3AB;
-    border: 2px dashed white;
 }
 .box4{
     display: flex;
     width: 17.5%;
-    background-color: #1FB3AB;
-    border: 2px dashed white;
 }
 .box5{
     display: flex;
     width: 17.5%;
-    background-color: #1FB3AB;
-    border: 2px dashed white;
 }
 hr{
     color: white;
